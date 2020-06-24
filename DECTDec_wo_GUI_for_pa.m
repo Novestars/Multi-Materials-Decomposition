@@ -3,10 +3,6 @@
 % decomposition method. The two candidate material are ROI/water. 
 
 % Load Data 
-dir_path = 'D:\process_XZ\MLIII_Contrast_raw_CT';
-subject_name = 'H-1489_MESAL-8012091_MESAL-8012091-E3_FRC-DE-0.75-Qr40d-5-DET';
-suf_80 = '-A-80kV_54882745.nii';
-suf_150 = '-B-Sn150kV_54883253.nii';
 
 InputImageE1_path = fullfile(dir_path,strcat( subject_name, suf_80));
 InputImageE2_path = fullfile(dir_path,strcat( subject_name, suf_150));
